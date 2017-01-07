@@ -1,0 +1,41 @@
+body {
+  background-color: white;
+}
+
+
+
+.big-box {
+  display: flex;
+}
+
+ .left {
+  background-color: #21a0e7;
+  height: 1000px;
+  width: 333px;
+
+}
+
+ .center {
+  background-color: #05ddeb;
+  height: 1000px;
+  width: 333px;
+
+}
+
+.right {
+  background-color: #8be784;
+  height: 1000px;
+  width: 333px;
+}
+
+.small-box {
+  position: absolute;
+  bottom: -282px;
+  right: 273px;
+  background-color: red;
+  height: 150px;
+  width: 333px;
+  text-align: center;
+  font-family: Arial;
+  color: white;
+}
